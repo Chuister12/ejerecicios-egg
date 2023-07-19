@@ -1,0 +1,28 @@
+import javax.swing.JOptionPane;
+
+public class MenuExample {
+    public static void main(String[] args) {
+        mostrarMenu();
+    }
+    
+    public static void mostrarMenu() {
+        String[] opciones = {"Opción 1", "Opción 2", "Opción 3"};
+        int seleccion = JOptionPane.showOptionDialog(null, "Selecciona una opción:", "Menú", JOptionPane.DEFAULT_OPTION, JOptionPane.PLAIN_MESSAGE, null, opciones, opciones[0]);
+        
+        // Dependiendo de la opción seleccionada por el usuario
+        switch (seleccion) {
+            case 0:
+                JOptionPane.showMessageDialog(null, "Has seleccionado la Opción 1");
+                break;
+            case 1:
+                JOptionPane.showMessageDialog(null, "Has seleccionado la Opción 2");
+                break;
+            case 2:
+                JOptionPane.showMessageDialog(null, "Has seleccionado la Opción 3");
+                break;
+            default:
+                JOptionPane.showMessageDialog(null, "Opción inválida");
+                break;
+        }
+    }
+}
