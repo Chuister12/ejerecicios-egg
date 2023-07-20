@@ -1,0 +1,18 @@
+body{
+    border-top: solid 2px grey;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-left: solid 2px grey;
+    border-right: solid 2px grey;
+    margin-top: 10%;
+}
+
+h1{
+    text-align: center;
+}
+.form-label{
+    font-weight: bold;
+}
+.btn-light{
+    border: 1px solid;
+}

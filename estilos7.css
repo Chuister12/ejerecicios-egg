@@ -1,0 +1,17 @@
+body{
+    background-color: brown;
+}
+h1{
+    text-align: left;
+    
+}
+p{
+    text-decoration-style: wavy;
+    text-decoration: black;
+}
+h2{
+    width: %50;
+    border: 1px;
+    background-color: aquamarine;
+    text-align: left;
+}
