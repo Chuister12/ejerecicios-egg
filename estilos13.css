@@ -1,9 +1,9 @@
 body{
-    border-top: solid 2px grey;
+    border-top: solid 2px rgb(180, 179, 179);
     margin-left: 25%;
     margin-right: 25%;
-    border-left: solid 2px grey;
-    border-right: solid 2px grey;
+    border-left: solid 2px rgb(179, 176, 176);
+    border-right: solid 2px rgb(179, 177, 177);
     margin-top: 10%;
 }
 
@@ -15,4 +15,8 @@ h1{
 }
 .btn-light{
     border: 1px solid;
+    
+}
+form{
+    padding: 15px;
 }
