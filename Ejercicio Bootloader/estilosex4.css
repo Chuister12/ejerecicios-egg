@@ -1,0 +1,28 @@
+ul{
+    border: 2px;
+    border-color: black; 
+    border-collapse: collapse;
+    background-color: gray;
+}
+
+h1{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
+.carrito{
+    width: 100%;
+    
+}
+.btn-info{
+    width: 15%;
+    background-color: rgb(247, 196, 102);
+    margin-left: 5%;
+}
+.btn-success a{
+    color: white;
+}
+.card-body{
+    background-color: gray;
+}
